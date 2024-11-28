@@ -1,0 +1,6 @@
+# Ignorar carpetas de caché de Python
+__pycache__/
+
+# Ignorar archivos de video MP4
+*.mp4
+
