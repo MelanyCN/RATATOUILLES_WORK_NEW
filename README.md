@@ -25,12 +25,14 @@ El archivo CSV debe tener el siguiente formato:
 
 Ejemplo de datos en el archivo CSV:
 
-| Edited Video File | Start Time (sec) | End Time (sec) | Notes                                           |
-|-------------------|------------------|----------------|------------------------------------------------|
-| dash_cam_part22_1 | 00:00:11,10      | 00:00:17,15    | Al menos chocaron 3 de 5 carros                |
-| dash_cam_part22_2 | 00:00:20,00      | 00:00:25,50    | Daños mínimos, nadie necesitó ambulancia       |
-| dash_cam_part26_1 | 00:01:00,10      | 00:01:05,00    | SUV pasó en rojo, chocó contra un camión       |
+| User   | Edited Video File | Start Time (sec) | End Time (sec) | Category  | Notes                                           |
+|--------|-------------------|------------------|----------------|-----------|------------------------------------------------|
+| Nena   | dash_cam_part22_1 | 00:00:09,10      | 00:00:16,10    | crash     | Al menos chocaron 3 de 5 carros                |
+| Nena   | dash_cam_part22_2 | 00:00:00,00      | 00:00:09,45    | no_crash  | Daños mínimos, nadie necesitó ambulancia       |
+| Sebas  | dash_cam_part26_1 | 00:00:05,10      | 00:00:08,10    | crash     | Por lo menos 2 vehículos fueron afectados      |
+| Sebas  | dash_cam_part26_3 | 00:00:19,10      | 00:00:22,10    | no_crash  | SUV pasó en rojo, chocó contra un camión       |
 
+---
 ### Formato del Tiempo
 Los tiempos de inicio y fin deben estar en el formato `hh:mm:ss,ms`:
 - `hh` = horas
@@ -75,8 +77,12 @@ Por cada fila en el archivo CSV:
 
 Ejemplo:
 - Entrada:
+  - `User` = `Nena`
+  - `Category` = `crash`
   - `Start Time (sec)` = `00:00:11,10`
   - `End Time (sec)` = `00:00:17,15`
   - `Edited Video File` = `dash_cam_part22_1`
 - Salida:
-  - Se genera un archivo `dash_cam_part22_1.mp4` en la carpeta `videos_prueba`.
+  - El video se guardará de la siguiente manera: `nena_dash_cam_part22_1.mp4`
+  - Guardandose en la carpeta `videos_prueba`, y dependiendo su categoria, en otra carpeta `crash` o `no_crash`.
+  - Quedando entonces: `videos_prueba/crash/nena_dash_cam_part22_1.mp4`
