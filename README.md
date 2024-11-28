@@ -1,6 +1,3 @@
-
----
-
 # Video Cutter Script
 
 Este proyecto contiene un script en Python que corta un video en múltiples clips basándose en los tiempos especificados en un archivo CSV. Los clips resultantes se guardan con nombres personalizados.
@@ -83,5 +80,3 @@ Ejemplo:
   - `Edited Video File` = `dash_cam_part22_1`
 - Salida:
   - Se genera un archivo `dash_cam_part22_1.mp4` en la carpeta `videos_prueba`.
-
----
