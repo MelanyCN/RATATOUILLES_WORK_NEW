@@ -72,17 +72,43 @@ output_folder = path + "videos_prueba"  # Carpeta donde se guardarán los clips
 
 Por cada fila en el archivo CSV:
 - Se corta un clip del video principal basado en los tiempos de inicio y fin.
-- Los clips se guardan en la carpeta especificada en `output_folder`.
-- Los nombres de los clips serán los especificados en la columna `Edited Video File` del archivo CSV.
+- Los clips de video y sus audios se guardan en la carpeta especificada en `output_folder`.
+- Los clips se organizan en subcarpetas según su categoría (`crash` o `no_crash`).
+- Dentro de cada categoría, se crean subcarpetas adicionales:
+  - **`audio/`**: Contiene los archivos de audio extraídos del clip.
+  - **`video/`**: Contiene los clips de video cortados.
+- Los nombres de los archivos se generan con el formato: `<User>_<Edited Video File>.<extensión>`.
 
-Ejemplo:
-- Entrada:
-  - `User` = `Nena`
-  - `Category` = `crash`
-  - `Start Time (sec)` = `00:00:11,10`
-  - `End Time (sec)` = `00:00:17,15`
-  - `Edited Video File` = `dash_cam_part22_1`
-- Salida:
-  - El video se guardará de la siguiente manera: `nena_dash_cam_part22_1.mp4`
-  - Guardandose en la carpeta `videos_prueba`, y dependiendo su categoria, en otra carpeta `crash` o `no_crash`.
-  - Quedando entonces: `videos_prueba/crash/nena_dash_cam_part22_1.mp4`
+### Ejemplo:
+#### Entrada (CSV):
+- **User**: `Nena`
+- **Category**: `crash`
+- **Start Time (sec)**: `00:00:11,10`
+- **End Time (sec)**: `00:00:17,15`
+- **Edited Video File**: `dash_cam_part22_1`
+
+#### Salida:
+- Los archivos se guardarán de la siguiente manera:
+  - **Audio**: `videos_prueba/crash/audio/nena_dash_cam_part22_1.mp3`
+  - **Video**: `videos_prueba/crash/video/nena_dash_cam_part22_1.mp4`
+
+### Organización de carpetas:
+Si hay múltiples categorías y usuarios, la estructura será la siguiente:
+```
+output_folder/
+├── crash/
+│   ├── audio/
+│   │   ├── nena_dash_cam_part22_1.mp3
+│   │   └── otro_audio.mp3
+│   ├── video/
+│   │   ├── nena_dash_cam_part22_1.mp4
+│   │   └── otro_video.mp4
+├── no_crash/
+│   ├── audio/
+│   │   ├── sebas_dash_cam_part26_1.mp3
+│   │   └── otro_audio.mp3
+│   ├── video/
+│   │   ├── sebas_dash_cam_part26_1.mp4
+│   │   └── otro_video.mp4
+```
+
