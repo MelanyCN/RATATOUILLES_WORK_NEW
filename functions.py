@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from moviepy.video.io.VideoFileClip import VideoFileClip
 
-def cortar_videos(video_path, csv_path, output_folder):
+def cortar_videos(csv_path, output_folder, base_path):
     """
     Corta un video en múltiples clips basados en los tiempos de inicio y fin
     especificados en un archivo CSV, organizados en subcarpetas según la categoría (Category)
@@ -23,7 +23,7 @@ def cortar_videos(video_path, csv_path, output_folder):
     datos.fillna(method="ffill", inplace=True)
 
     # Filtrar columnas relevantes
-    datos = datos[["User", "Category", "Edited Video File", "Start Time (sec)", "End Time (sec)"]].dropna()
+    datos = datos[["User", "Category", "Edited Video File", "Start Time (sec)", "End Time (sec)", "Nombre de como esta guardado en el computador"]].dropna()
 
     # Iterar sobre cada fila
     for index, row in datos.iterrows():
@@ -32,6 +32,7 @@ def cortar_videos(video_path, csv_path, output_folder):
         nombre_clip = row["Edited Video File"]          # Nombre base del clip
         tiempo_inicio = row["Start Time (sec)"]         # Tiempo de inicio (hh:mm:ss,ms)
         tiempo_fin = row["End Time (sec)"]              # Tiempo de fin (hh:mm:ss,ms)
+        video_name = row["Nombre de como esta guardado en el computador"].strip()  # Nombre del video a cortar
 
         # Convertir tiempos al formato de segundos
         inicio = convertir_tiempo_a_segundos(tiempo_inicio)
@@ -51,7 +52,9 @@ def cortar_videos(video_path, csv_path, output_folder):
         output_video_path = os.path.join(video_folder, f"{usuario}_{nombre_clip}.mp4")
         output_audio_path = os.path.join(audio_folder, f"{usuario}_{nombre_clip}.mp3")
 
-        # Abrir el video original y procesar el clip
+        # Construir la ruta del video principal
+        video_path = os.path.join(base_path, f"{video_name}.mp4")         # Ruta del video principal
+
         with VideoFileClip(video_path) as video:
             # Cortar el video
             clip = video.subclipped(inicio, fin)
