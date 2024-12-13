@@ -2,7 +2,7 @@ import pandas as pd
 import os
 from moviepy.video.io.VideoFileClip import VideoFileClip
 
-def cortar_videos(csv_path, output_folder, base_path):
+def cortar_videos(csv_path, output_folder):
     """
     Corta un video en múltiples clips basados en los tiempos de inicio y fin
     especificados en un archivo CSV, organizados en subcarpetas según la categoría (Category)
@@ -20,19 +20,19 @@ def cortar_videos(csv_path, output_folder, base_path):
     datos = pd.read_csv(csv_path, skiprows=12)
 
     # Rellenar celdas vacías con el último valor válido
-    datos.fillna(method="ffill", inplace=True)
+    datos = datos.ffill()
 
     # Filtrar columnas relevantes
-    datos = datos[["User", "Category", "Edited Video File", "Start Time (sec)", "End Time (sec)", "Nombre de como esta guardado en el computador"]].dropna()
+    datos = datos[["User", "Nombre Guardado", "Edited Video File", "Category", "Start Time", "End Time"]].dropna()
 
     # Iterar sobre cada fila
     for index, row in datos.iterrows():
         usuario = row["User"].strip().lower()           # Usuario en minúsculas
-        categoria = row["Category"].strip().lower()     # Categoría en minúsculas
+        video_name = row["Nombre Guardado"].strip()     # Nombre del video a cortar
         nombre_clip = row["Edited Video File"]          # Nombre base del clip
-        tiempo_inicio = row["Start Time (sec)"]         # Tiempo de inicio (hh:mm:ss,ms)
-        tiempo_fin = row["End Time (sec)"]              # Tiempo de fin (hh:mm:ss,ms)
-        video_name = row["Nombre de como esta guardado en el computador"].strip()  # Nombre del video a cortar
+        categoria = row["Category"].strip().lower()     # Categoría en minúsculas
+        tiempo_inicio = row["Start Time"]         # Tiempo de inicio (hh:mm:ss,ms)
+        tiempo_fin = row["End Time"]              # Tiempo de fin (hh:mm:ss,ms)
 
         # Convertir tiempos al formato de segundos
         inicio = convertir_tiempo_a_segundos(tiempo_inicio)
@@ -53,7 +53,7 @@ def cortar_videos(csv_path, output_folder, base_path):
         output_audio_path = os.path.join(audio_folder, f"{usuario}_{nombre_clip}.mp3")
 
         # Construir la ruta del video principal
-        video_path = os.path.join(base_path, f"{video_name}.mp4")         # Ruta del video principal
+        video_path = f"{video_name}.mp4"
 
         with VideoFileClip(video_path) as video:
             # Cortar el video

@@ -19,18 +19,21 @@ Este script ha sido probado con **Python 3.8 o superior**.
 El archivo CSV debe tener el siguiente formato:
 - **Inicio desde la fila 13**: Las primeras 12 filas se omiten automáticamente.
 - **Columnas relevantes**:
+  - `User`: Usuario que será parte del nombre del archivo.
+  - `Nombre Guardado`: Nombre del archivo de video original.
   - `Edited Video File`: Nombre con el que se guardará el clip.
-  - `Start Time (sec)`: Tiempo de inicio del clip en formato `hh:mm:ss,ms`.
-  - `End Time (sec)`: Tiempo de fin del clip en formato `hh:mm:ss,ms`.
+  - `Category`: Categoría del video (`crash` o `no_crash`).
+  - `Start Time`: Tiempo de inicio del clip en formato `hh:mm:ss,ms`.
+  - `End Time`: Tiempo de fin del clip en formato `hh:mm:ss,ms`.
 
 Ejemplo de datos en el archivo CSV:
 
-| User   | Edited Video File | Start Time (sec) | End Time (sec) | Category  | Notes                                           |
-|--------|-------------------|------------------|----------------|-----------|------------------------------------------------|
-| Nena   | dash_cam_part22_1 | 00:00:09,10      | 00:00:16,10    | crash     | Al menos chocaron 3 de 5 carros                |
-| Nena   | dash_cam_part22_2 | 00:00:00,00      | 00:00:09,45    | no_crash  | Daños mínimos, nadie necesitó ambulancia       |
-| Sebas  | dash_cam_part26_1 | 00:00:05,10      | 00:00:08,10    | crash     | Por lo menos 2 vehículos fueron afectados      |
-| Sebas  | dash_cam_part26_3 | 00:00:19,10      | 00:00:22,10    | no_crash  | SUV pasó en rojo, chocó contra un camión       |
+| User   | Nombre Guardado   | Edited Video File | Category  | Start Time   | End Time     |
+|--------|-------------------|-------------------|-----------|--------------|--------------|
+| Nena   | video1            | dash_cam_part22_1 | crash     | 00:00:09,10  | 00:00:16,10  |
+| Nena   | video1            | dash_cam_part22_2 | no_crash  | 00:00:00,00  | 00:00:09,45  |
+| Sebas  | video2            | dash_cam_part26_1 | crash     | 00:00:05,10  | 00:00:08,10  |
+| Sebas  | video2            | dash_cam_part26_3 | no_crash  | 00:00:19,10  | 00:00:22,10  |
 
 ---
 ### Formato del Tiempo
@@ -42,14 +45,11 @@ Los tiempos de inicio y fin deben estar en el formato `hh:mm:ss,ms`:
 
 ## Configuración
 
-El script utiliza la variable `path` para definir las rutas a los archivos. Asegúrate de configurar las rutas correctamente antes de ejecutarlo:
+El script utiliza las rutas relativas al directorio actual. Asegúrate de que los archivos se encuentren en el mismo directorio o especifica rutas correctas.
 
 ```python
-path = "/ruta/a/tu/directorio/"
-
-video_path = path + "video_carros.mp4"  # Ruta al video principal
-csv_path = path + "tiempos.csv"         # Ruta al archivo CSV
-output_folder = path + "videos_prueba"  # Carpeta donde se guardarán los clips
+csv_path = "tiempos.csv"                # Ruta al archivo CSV
+output_folder = "VIDEOS"               # Carpeta donde se guardarán los clips cortados
 ```
 
 ## Ejecución
@@ -82,15 +82,16 @@ Por cada fila en el archivo CSV:
 ### Ejemplo:
 #### Entrada (CSV):
 - **User**: `Nena`
+- **Nombre Guardado**: `video1`
 - **Category**: `crash`
-- **Start Time (sec)**: `00:00:11,10`
-- **End Time (sec)**: `00:00:17,15`
+- **Start Time**: `00:00:11,10`
+- **End Time**: `00:00:17,15`
 - **Edited Video File**: `dash_cam_part22_1`
 
 #### Salida:
 - Los archivos se guardarán de la siguiente manera:
-  - **Audio**: `videos_prueba/crash/audio/nena_dash_cam_part22_1.mp3`
-  - **Video**: `videos_prueba/crash/video/nena_dash_cam_part22_1.mp4`
+  - **Audio**: `VIDEOS/crash/audio/nena_dash_cam_part22_1.mp3`
+  - **Video**: `VIDEOS/crash/video/nena_dash_cam_part22_1.mp4`
 
 ### Organización de carpetas:
 Si hay múltiples categorías y usuarios, la estructura será la siguiente:
@@ -111,4 +112,3 @@ output_folder/
 │   │   ├── sebas_dash_cam_part26_1.mp4
 │   │   └── otro_video.mp4
 ```
-

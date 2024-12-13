@@ -1,70 +1,228 @@
-"SOLO VIDEOS DE PRIMERA VISTA, valen accidentes de otros 		
-15 segundos como maximo por clase (crash o no_crash)		
-todo .mp4		
-SI O SI CON AUDIO		
-CUANTOS CARROS CHOCADOS		",,,,,,,,,
+"SOLO VIDEOS DE PRIMERA VISTA, valen accidentes de otros                 
+15 segundos como maximo por clase (crash o no_crash)                
+todo .mp4                
+SI O SI CON AUDIO                
+CUANTOS CARROS CHOCADOS                ",,,,,,,,,
+,,,,,,,,,
+,,*a partir de ahora para hacerlo más sencillo pondrán:,"(cantidad de VEHÍCULOS IMPACTADOS) + "","" + (tipo de choque: choque frontal, choque lateral izquierdo, choque lateral derecho, parte trasera)+ "","" + (razón del choque a su entender)",,,,,,
+,,EJEMPLO:,,,,,,,
+,,"1. Dos vehículos impactados, choque frontal, el vehículo rojo invade carril",,,,,,,
+,,"2. Por lo menos tres vehículos impactados, choque lateral izquierdo, el vehículo blanco excede velocidad",,,,,,,
+,,"TRATEN QUE SEA TAL CUAL ESTA DESCRIPCIÓN PARA HACERLO MÁS GENÉRICO Y TENER UN ORDEN CON LOS COMENTARIOS, si cambian algo de los ejemplos que sea solo cantidad o algo mínimo, pero miren los ejemplos para que tengan idea",,,,,,,
+,,,NOTAS A CORREGIR:,SEBASTIAN,NENA,10/12,,,
+,,,,"SOLO 3 VALORES ES DECIR, SOLO 2 COMAS",YA SABE,,,,
 ,,,,,,,,,
 ,,,,,,,,,
 ,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,,,,,,,,,
-,User,Video ID,Nombre de como esta guardado en el computador,Original URL,Edited Video File,Category,Start Time (sec),End Time (sec),Notes
-,Nena,INSANE CAR CRASHES COMPILATION || Best of USA & Canada Accidents - part 26,compilation_usa_canada_26,https://www.youtube.com/watch?v=g6VfR2xUwO8,dash_cam_part26_1,crash,"00:00:05,19","00:00:09,00","Al menos chocaron 3 de 5 carros, daños minimos, nadie necesito ambulancia"
+,User,Nombre Youtube,Nombre Guardado,URL,Edited Video File,Category,Start Time,End Time,Notes
+,Nena,INSANE CAR CRASHES COMPILATION || Best of USA & Canada Accidents - part 26,insane_crashes_26,https://www.youtube.com/watch?v=g6VfR2xUwO8,dash_cam_part26_1,crash,"00:00:05,19","00:00:09,00","2 vehiculos impactados, choque lateral derecho, el vehiculo SUV blanco cruzo en luz roja y el vehiculo negro no reacciono a tiempo "
 ,,,,,dash_cam_part26_2,no_crash,"00:00:00,00","00:00:05,18",
-,,,,,dash_cam_part26_3,crash,"00:00:53,06","00:01:01,20",fueron 3 los carros afectados (incluyendo al que provoco el accidente)
+,,,,,dash_cam_part26_3,crash,"00:00:53,06","00:01:01,20","3 vehiculos impactados, choque lateral en ambos carros, el vehiculo negro perdio el control desviandose a la izquierda impactando levemente con 2 vehiculos"
 ,,,,,dash_cam_part26_4,no_crash,"00:00:46,20","00:00:53,05",
-,,,,,dash_cam_part26_5,crash,"00:01:31,18","00:01:35,06",por lo menos 2 vehiculos fueron afectados
+,,,,,dash_cam_part26_5,crash,"00:01:31,18","00:01:35,06","2 los vehiculos impactados choque frontal, el carro blanco al momento de girar se pega demasiado a su izquierda provocando que no visualice al carro que venia en ese carril"
 ,,,,,dash_cam_part26_6,no_crash,"00:01:26,29","00:01:31,17",
-,,,,,dash_cam_part26_7,crash,"00:01:51,13","00:01:56,22","Conductor ebrio que iba a exceso de velocidad, se saltó un semáforo en rojo y fue embestido, chocando contra otros 4 vehículos"
+,,,,,dash_cam_part26_7,crash,"00:01:51,13","00:01:56,22","por lo menos 4 vehiculos impactados, choque lateral derecho e izquierdo e frontal, conductor del auto rojo ebrio iba a exceso de velocidad y se salto un semaforo en rojo    "
 ,,,,,dash_cam_part26_8,no_crash,"00:01:47,02","00:01:51,12",
-,,,,,dash_cam_part26_9,crash,"00:03:14,01","00:03:17,14",La señora (automóvil plateado) que estaba siguiendo a su marido después de recoger su nuevo automóvil usado (automóvil azul) giró frente a mí cuando tenía derecho a ROW.
+,,,,,dash_cam_part26_9,crash,"00:03:14,01","00:03:17,14","por lo menos 2 vehiculos impactados, choque frontal, automóvil plateado se giró frente al otro cuando este tenia preferencia"
 ,,,,,dash_cam_part26_10,no_crash,"00:03:06,26","00:03:14,00",
-,,,,,dash_cam_part26_11,crash,"00:03:38,16","00:03:40,25",El carro de la camara toco claxon antes de chocar pero el auto rojo siguio el camino chocando inevitablemente
+,,,,,dash_cam_part26_11,crash,"00:03:38,16","00:03:40,25","2 vehiculos impactados, choque lateral izquierdo, vehiculo rojo cruzo la calle cuando no tenia la preferencia"
 ,,,,,dash_cam_part26_12,no_crash,"00:03:36,19","00:03:38,15",
-,,,,,dash_cam_part26_13,crash,"00:04:05,03","00:04:12,29","Todos estaban bien, solo hubo algunos egos y termino con los carros chocando."
+,,,,,dash_cam_part26_13,crash,"00:04:05,03","00:04:12,29","2 vehiculos impactados, choque lateral derecho, ambos carros tuvieron discusiones y la camioneta provoco el coche "
 ,,,,,dash_cam_part26_14,no_crash,"00:03:56,26","00:04:05,02",
-,,,,,dash_cam_part26_15,crash,"00:04:40,28","00:04:45,29",Nadie resultó herido fue un pequeño accidente de cruce de calles
-,,BEST OF CAR CRASHES 2024,best_crashes_2024,https://www.youtube.com/watch?v=tKJbm48vQlk,dash_cam_best2024_1,crash,"00:00:19,09","00:00:24,02",El choque fue despacio pero produjo que el auto afectado se volcara pero la afectada estaba ilesa
+,,,,,dash_cam_part26_15,crash,"00:04:40,28","00:04:45,29","2 vehiculos impactados, choque lateral izquierdo, accidente de cruce de calles"
+,,,,,dash_cam_part26_16,no_crash,"00:04:38,25","00:04:40,27",
+,,,,,dash_cam_part26_17,crash,"00:05:15,18","00:05:22,28","por lo menos 2 vehiculos impactados, choque lateral izquierdo, La camioneta blanca se salió de control y chocó contra el auto"
+,,,,,dash_cam_part26_18,no_crash,"00:05:12,18","00:05:15,17",
+,,,,,dash_cam_part26_19,crash,"00:05:45,24","00:05:49,18","por lo menos 2 vehiculos impactados, choque parte trasera, Buick giró a la derecha con luz roja y procedió a ir a 20 en una zona de 45 millas por hora."
+,,,,,dash_cam_part26_20,no_crash,"00:05:43,20","00:05:45,23",
+,,,,,dash_cam_part26_21,crash,"00:06:01,01","00:06:05,23","2 vehiculos impactados, choque lateral izquierdo, un carro giro y el otro estaba yendo de frente y ninguno cedio el camino al otro"
+,,,,,dash_cam_part26_22,no_crash,"00:05:55,02","00:06:01,00",
+,,,,,dash_cam_part26_23,crash,"00:06:32,28","00:06:44,04","por lo menos 2 vehiculos impactados, choque lateral, La camioneta negra perdio el control yendo primero a una zona izquierda sin carros para luego perder de nuevo el control e ir frente a 2 camiones de los cuales 1 roza con el"
+,,,,,dash_cam_part26_24,no_crash,"00:06:22,12","00:06:32,27",
+,,,,,dash_cam_part26_25,crash,"00:06:52,20","00:06:59,05","2 vehiculos impactados, choque lateral izquierdo, La camioneta blanca intercepto a la otra en una curva"
+,,,,,dash_cam_part26_26,no_crash,"00:06:50,15","00:06:52,19",
+,,,,,dash_cam_part26_27,crash,"00:07:09,27","00:07:13,15","2 vehiculos impactados, choque frontal, el conductor del Ford Flex estaba distraído con su teléfono girando asi cuando no debia"
+,,,,,dash_cam_part26_28,no_crash,"00:07:04,28","00:07:09,26",
+,,,,,dash_cam_part26_29,crash,"00:08:02,07","00:08:06,29","1 vehiculo impactado, choque lateral derecho, el conductor del auto negro perdio el control provocando chocar contra un muro"
+,,,,,dash_cam_part26_30,no_crash,"00:07:57,01","00:08:02,06",
+,,,,,dash_cam_part26_31,crash,"00:09:37,06","00:09:42,13","2 vehiculos impactados, choque por detras, el auto chocante no calculo bien la distancia"
+,,,,,dash_cam_part26_32,no_crash,"00:09:31,16","00:09:37,05",
+,,,,,dash_cam_part26_33,crash,"00:10:22,04","00:10:25,20","2 vehiculos impactados, choque frontal, el auto gira de repente en un cruce y provoca choque con el auto que graba"
+,,,,,dash_cam_part26_34,no_crash,"00:10:15,20","00:10:22,03",
+,,,,,dash_cam_part26_35,crash,"00:10:49,01","00:10:56,02","2 vehiculos impactados, choque por detras, la camioneta roja retrocedio demasiado y no calculo adecuadamente"
+,,,,,dash_cam_part26_36,no_crash,"00:10:43,16","00:10:49,00",
+,,,,,dash_cam_part26_37,crash,"00:11:20,19","00:11:26,15","2 vehiculos impactados, choque lateral derecho, el vehiculo que provoco el choque quería entrar en la rotonda y giró a la izquierda desde la línea derecha."
+,,,,,dash_cam_part26_38,no_crash,"00:11:10,12","00:11:20,18",
+,,,,,dash_cam_part26_39,crash,"00:12:01,05","00:12:05,06","por lo menos 2 vehiculos impactados, choque lateral izquierdo, Kia intentó una maniobra ilegal usando el carril del costado izquierdo y golpeó y raspó el costado de la unidad."
+,,,,,dash_cam_part26_40,no_crash,"00:11:52,15","00:11:55,25",
+,,,,,dash_cam_part26_41,crash,"00:12:53,13","00:13:00,05","por lo menos 2 vehiculos impactados, choque lateral izquierdo, el autobús escolar siguió su camino cuando las luces se pusieron amarillas y el otro auto no esperó a que se despeje el camino"
+,,,,,dash_cam_part26_42,no_crash,"00:12:46,26","00:12:53,12",
+,,,,,dash_cam_part26_43,crash,"00:13:28,16","00:13:32,11","2 vehiculos impactados, choque lateral izquierdo, el carro blanco tenia preferencia por lo que no freno y siguio con su velocidad produciendo el choque"
+,,,,,dash_cam_part26_44,no_crash,"00:13:25,21","00:13:28,15",
+,,,,,dash_cam_part26_45,crash,"00:14:00,11","00:14:05,24","2 vehiculos impactados, choque frontal, uno no freno cuando el otro tenia la prioridad"
+,,,,,dash_cam_part26_46,no_crash,"00:13:53,26","00:14:00,10",
+,,,,,dash_cam_part26_47,crash,"00:14:43,25","00:14:48,00","2 vehiculos impactados, choque lateral derecho bajo, ambos carros tomaron velocidad cuando uno giraba y el otro iba en linea recta"
+,,,,,dash_cam_part26_48,no_crash,"00:14:33,11","00:14:43,24",
+,,,,,dash_cam_part26_49,crash,"00:15:39,04","00:15:45,23","2 vehiculos impactados, choque lateral derecho, el carro plomo impacto al otro haciendolo chocar luego con la acera"
+,,,,,dash_cam_part26_50,no_crash,"00:15:32,29","00:15:39,03",
+,,,,,dash_cam_part26_51,crash,"00:16:46,09","00:16:52,06","2 vehiculos impactados, choque lateral derecho, el vehiculo negro no logro frenar a tiempo cuando el vehiculo que graba cambia de carril"
+,,,,,dash_cam_part26_52,no_crash,"00:16:40,19","00:16:46,08",
+,,,,,dash_cam_part26_53,crash,"00:19:04,25","00:19:12,14","2 vehiculos impactados, choque por detras, el vehiculo plomo retrocedio demasiado"
+,,,,,dash_cam_part26_54,no_crash,"00:18:56,28","00:19:04,24",
+,,,,,dash_cam_part26_55,crash,"00:20:28,12","00:20:33,10","2 vehiculos impactados, choque lateral izquierdo, la camioneta blanca realizo una mala maniobra"
+,,,,,dash_cam_part26_56,no_crash,"00:20:20,21","00:20:28,12",
+,,,,,dash_cam_part26_57,crash,"00:22:00,16","00:22:05,29","2 vehiculos impactados, choque lateral izquierdo, el choque fue producido por la minivan ploma al no bajar su velocidad ya que el otro tenia prioridad"
+,,,,,dash_cam_part26_58,no_crash,"00:21:56,18","00:22:00,16",
+,,BEST OF CAR CRASHES 2024,best_crashes_2024,https://www.youtube.com/watch?v=tKJbm48vQlk,dash_cam_best2024_1,crash,"00:00:19,09","00:00:24,02","2 vehiculos impactados, choque lateral lateral derecho, el auto blanco interferio el carril de auto rojo haciendo que se volcara"
 ,,,,,dash_cam_best2024_2,no_crash,"00:00:16,15","00:00:19,09",
-,,,,,dash_cam_best2024_3,crash,"00:01:19,08","00:01:23,16",el automovil negro choco con un poste producto de su velocidad
+,,,,,dash_cam_best2024_3,crash,"00:01:19,08","00:01:23,16","1 vehiculo impactado, choque frotntal, el automovil negro choco con un poste producto de tratar de no chocar al vehiculo que graba"
 ,,,,,dash_cam_best2024_4,no_crash,"00:01:16,15","00:01:19,08",
-,,,,,dash_cam_best2024_5,crash,"00:01:48,18","00:01:52,29",Acura blanca no cedió
+,,,,,dash_cam_best2024_5,crash,"00:01:48,18","00:01:52,29","3 vehiculos impactados, choque lateral derecho, el Acura blanca giro y no cedió cuando el otro tenia preferencia"
 ,,,,,dash_cam_best2024_6,no_crash,"00:01:43,02","00:01:48,18",
-,,,,,dash_cam_best2024_7,crash,"00:02:27,20","00:02:31,14",Sedan blanco volteo a la izquierda no pudiendo visualizar al Nissan plomo
+,,,,,dash_cam_best2024_7,crash,"00:02:27,20","00:02:31,14","2 vehiculos impactados, choque frontal, el Sedan blanco volteo a la izquierda no pudiendo visualizar al Nissan plomo que estaba en velocidad y en su preferencia"
 ,,,,,dash_cam_best2024_8,no_crash,"00:02:21,22","00:02:27,20",
-,,,,,dash_cam_best2024_9,crash,"00:02:46,22","00:02:51,14",Los dos carros estaban tratando de cruzar en luz amarilla
+,,,,,dash_cam_best2024_9,crash,"00:02:46,22","00:02:51,14","3 vehiculos impactados, choque frontal, los dos carros estaban tratando de cruzar en luz amarilla"
 ,,,,,dash_cam_best2024_10,no_crash,"00:02:42,00","00:02:46,22",
-,,,,,dash_cam_best2024_11,crash,"00:03:05,17","00:03:10,08","El carro rojo se detuvo frente al otro, produciendo el choque"
+,,,,,dash_cam_best2024_11,crash,"00:03:05,17","00:03:10,08","2 vehiculos impactados, choque frontal, el carro rojo se detuvo frente al  en un giro"
 ,,,,,dash_cam_best2024_12,no_crash,"00:03:03,01","00:03:05,17",
-,,,,,dash_cam_best2024_13,crash,"00:04:04,15","00:04:07,29",ningun carro freno a tiempo
+,,,,,dash_cam_best2024_13,crash,"00:04:04,15","00:04:07,29","2 vehiculos impactados, choque lateral derecho, el carro que graba tiene preferencia cuando el otro gira inesperadamente"
 ,,,,,dash_cam_best2024_14,no_crash,"00:04:01,23","00:04:04,15",
-,,,,,dash_cam_best2024_15,crash,"00:08:23,08","00:08:28,20",el vehiculo que grabo freno a fondo intentando esquivarlo. Tenía poco espacio a la derecha.
-,Sebas,INSANE CAR CRASHES COMPILATION || Best of USA & Canada Accidents - part 25,compilation_usa_canada_26,https://www.youtube.com/watch?v=M2NKQCBibpQ,dash_cam_part25_1,no_crash,"00:00:00,00","00:00:08,20",
+,,,,,dash_cam_best2024_15,crash,"00:08:23,08","00:08:28,20","2 vehiculos impactados, choque lateral derecho, el vehiculo negro aparece inesperadamente no dando tiempo de esquivarlo ya que tambien tenía poco espacio a la derecha."
+,,,,,dash_cam_best2024_16,no_crash,"00:08:16,22","00:08:23,08",
+,,,,,dash_cam_best2024_17,crash,"00:09:05,07","00:09:12,14","por lo menos 3 vehiculos impactados, choque frontal al primer carro y lateral derecho al segundo, el Honda negro perdio control y no pudo mantenerse en su carril"
+,,,,,dash_cam_best2024_18,no_crash,"00:08:59,23","00:09:05,07",
+,,,,,dash_cam_best2024_19,crash,"00:09:57,05","00:10:01,24","2 vehiculos impactados, choque frontal, la camioneta marron tomó la curva demasiado cerca y chocó el otro auto"
+,,,,,dash_cam_best2024_20,no_crash,"00:09:50,19","00:09:57,05",
+,,,,,dash_cam_best2024_21,crash,"00:10:15,23","00:10:20,19","2 vehiculos impactados, choque frontal, la furgoneta blanca iba a velocidad y el Ford giro cuando no tenia preferencia"
+,,,,,dash_cam_best2024_22,no_crash,"00:10:09,07","00:10:15,23",
+,,,,,dash_cam_best2024_23,crash,"00:11:07,07","00:11:14,03","2 vehiculos impactados, choque lateral derecho, el auto negro cruza un carril en interseccion a ultimo momento no dando tiempo para frenar"
+,,,,,dash_cam_best2024_24,no_crash,"00:11:00,25","00:11:07,07",
+,,,,,dash_cam_best2024_25,crash,"00:12:13,27","00:12:18,20","por lo menos 2 vehiculos impactados, choque frontal, el auto plono no visualizo al auto negro que estaba en el otro lado de la carretera"
+,,,,,dash_cam_best2024_26,no_crash,"00:12:09,15","00:12:13,27",
+,,,,,dash_cam_best2024_27,crash,"00:12:35,01","00:12:41,15","2 vehiculos impactados, choque frontal, el conductor del auto que impacta se metió en el semáforo en amarillo"
+,,,,,dash_cam_best2024_28,no_crash,"00:12:28,26","00:12:35,01",
+,,,,,dash_cam_best2024_29,crash,"00:12:54,02","00:12:57,24","2 vehiculos impactados, choque frontal, el auto azul estaba a velocidad tratando de pasar el semaforo en amarillo  "
+,,,,,dash_cam_best2024_30,no_crash,"00:12:47,02","00:12:54,02",
+,,,,,dash_cam_best2024_31,crash,"00:13:10,21","00:13:14,10","2 vehiculos impactado, choque frontal, la camioneta que giro no visualizo al otro vehiculo"
+,,,,,dash_cam_best2024_32,no_crash,"00:13:04,23","00:13:10,21",
+,,,,,dash_cam_best2024_33,crash,"00:13:41,15","00:13:44,26","2 vehiculos impactados, choque lateral izquierdo, la camioneta ploma se mete a la carretera no viendo al auto negro que venia a velocidad"
+,,,,,dash_cam_best2024_34,no_crash,"00:13:35,16","00:13:41,15",
+,,,,,dash_cam_best2024_35,crash,"00:14:19,21","00:14:27,27","2 vehiculos impactados, choque frontal, el conductor del camión resbaló en la nieve"
+,,,,,dash_cam_best2024_36,no_crash,"00:14:14,09","00:14:19,21",
+,,,,,dash_cam_best2024_37,crash,"00:14:47,07","00:14:59,13","por lo menos 4 vehiculos impactados, choque frontal, la Tacoma blanca con remolque comienza a patinar y se desvía por la autopista"
+,,,,,dash_cam_best2024_38,no_crash,"00:14:40,13","00:14:47,07",
+,,,,,dash_cam_best2024_39,crash,"00:15:16,03","00:15:20,20","2 vehiculos impactados, choque por detras, la camioneta negra retrocedio y el auto que grababa no noto y ninguno freno a tiempo"
+,,,,,dash_cam_best2024_40,no_crash,"00:15:10,14","00:15:16,03",
+,,,,,dash_cam_best2024_41,crash,"00:15:33,24","00:15:44,13","por lo menos 3 vehiculos impactados, choque lateral derecho, el auto negro estaba a velocidad y cruzo una luz roja"
+,,,,,dash_cam_best2024_42,no_crash,"00:15:28,22","00:15:33,24",
+,Sebas,INSANE CAR CRASHES COMPILATION || Best of USA & Canada Accidents - part 25,insane_craches_25,https://www.youtube.com/watch?v=M2NKQCBibpQ,dash_cam_part25_1,no_crash,"00:00:00,00","00:00:08,20",
 ,,,,,dash_cam_part25_2,crash,"00:00:08,20","00:00:17,16","Por lo menos dos vehículos fue afectado, fueron impactado por delante, camioneta blanca invade carril perpendicularmente"
 ,,,,,dash_cam_part25_3,no_crash,"00:00:27,09","00:00:31,13",
-,,,,,dash_cam_part25_4,crash,"00:00:31,13","00:00:40,12","Por lo menos dos vehículos fueron afectados, primero el auto chocante impacto un poste, choque frontal para el auto que graba"
+,,,,,dash_cam_part25_4,crash,"00:00:31,13","00:00:40,12","Por lo menos dos vehículos fueron afectados, choque frontal, primero el auto chocante impacto un poste"
 ,,,,,dash_cam_part25_5,no_crash,"00:00:48,12","00:00:51,13",
-,,,,,dash_cam_part25_6,crash,"00:00:51,13","00:00:57,15","Por lo menos dos vehículos fueron afectados, camioneta roja se atraviesa en cruce, choque frontal para ambos vehículos, auto de primera persona superaba los límites de velocidad"
+,,,,,dash_cam_part25_6,crash,"00:00:51,13","00:00:57,15","Por lo menos dos vehículos fueron afectados, choque frontal, auto de primera persona superaba los límites de velocidad"
 ,,,,,dash_cam_part25_7,no_crash,"00:01:08,15","00:01:12,14",
-,,,,,dash_cam_part25_8,crash,"00:01:12,14","00:01:18,10","Por lo menos dos vehículos fueron afectados, vehiculo azul tomó un atajo y tomó por sorpresa al conductor de la cámara, choque perpendicular"
+,,,,,dash_cam_part25_8,crash,"00:01:12,14","00:01:18,10","Por lo menos dos vehículos fueron afectados, choque lateral, vehiculo azul tomó un atajo y tomó por sorpresa al conductor de la cámara"
 ,,,,,dash_cam_part25_9,no_crash,"00:01:31,09","00:01:34,14",
-,,,,,dash_cam_part25_10,crash,"00:01:34,14","00:01:41,07","Por lo menos 4 vehículos fueron afectados, vehículo rojo de primera persona recibe impacto trasero por un trailer, el impacto hizo perder el control al vehículo de la cámara haciéndolo chocar con un vehículo de carril contrario"
+,,,,,dash_cam_part25_10,crash,"00:01:34,14","00:01:41,07","Por lo menos 4 vehículos fueron afectados, choque trasero, el impacto hizo perder el control al vehículo de la cámara "
 ,,,,,dash_cam_part25_11,no_crash,"00:01:55,22","00:01:59,09",
-,,,,,dash_cam_part25_12,crash,"00:01:59,09","00:02:08,05","Auto pasa la luz roja, Por lo menos dos vehículos afectados"
+,,,,,dash_cam_part25_12,crash,"00:01:59,09","00:02:08,05","Por lo menos dos vehículos afectados, choque frontal, auto pasa la luz roja"
 ,,,,,dash_cam_part25_13,no_crash,"00:02:14,21","00:02:19,27",
-,,,,,dash_cam_part25_14,crash,"00:02:19,27","00:02:26,10","Por lo menos 3 afectados, auto negro pierde el control e invade carril"
+,,,,,dash_cam_part25_14,crash,"00:02:19,27","00:02:26,10","Por lo menos 3 afectados, choque frontal, auto negro pierde el control e invade carril"
 ,,,,,dash_cam_part25_15,no_crash,"00:02:38,24","00:02:43,07",
-,,"INSANE CAR CRASHES COMPILATION || USA & Canada - part 24",compilation_usa_canada_26,https://www.youtube.com/watch?v=03IZDJajxPk&t=215s&ab_channel=DashcamLessons,dash_cam_part25_67,no_crash,"00:00:00,00","00:00:05,20",
-,,,,,dash_cam_part25_68,crash,"00:00:05,20","00:00:09,11","Por lo menos dos autos afectados, auto azul venía a gran velocidad, auto azul tenía preferencia, camioneta ploma se sobrepone en medio de la pista, choque perpendicular."
+,,,,,dash_cam_part25_16,crash,"00:02:43,07","00:02:47,27","Por lo menos 2 vehiculos afetados, choque lateral, camioneta se salta el semáforo "
+,,,,,dash_cam_part25_17,no_crash,"00:03:11,11","00:03:15,11",
+,,,,,dash_cam_part25_18,crash,"00:03:15,11","00:03:20,27","Por lo menos dos vehiculos afectados, choque frontal, auto blanco no respetó el semáforo"
+,,,,,dash_cam_part25_19,no_crash,"00:04:00,28","00:04:05,03",
+,,,,,dash_cam_part25_20,crash,"00:04:05,03","00:04:11,20","Por lo menos dos autos afectados, choque frontal, carro afectante invade carril en rotonda"
+,,,,,dash_cam_part25_21,no_crash,"00:05:25,16","00:05:29,17",
+,,,,,dash_cam_part25_22,crash,"00:05:29,17","00:05:37,20","Por lo menos dos autos afectados, choque frontal, camioneta negra invade carril  "
+,,,,,dash_cam_part25_23,no_crash,"00:06:25,05","00:06:27,03",
+,,,,,dash_cam_part25_24,crash,"00:06:27,03","00:06:31,29","Por lo menos dos autos afectados, choque lateral, auto negro invade carril por lado derecho"
+,,,,,dash_cam_part25_25,no_crash,"00:06:41,27","00:06:45,24",
+,,,,,dash_cam_part25_26,crash,"00:06:45,24","00:06:51,24","Por lo menos tres autos afectados, choque trasero, camioneta roja se despista"
+,,,,,dash_cam_part25_27,no_crash,"00:07:03,01","00:07:07,26",
+,,,,,dash_cam_part25_28,crash,"00:07:07,26","00:07:13,13","Por lo menos 3 autos afectados, choque frontal, choque en cadena en intermbio viál."
+,,,,,dash_cam_part25_29,no_crash,"00:07:16,02","00:07:20,16",
+,,,,,dash_cam_part25_30,crash,"00:07:20,16","00:07:26,18","Por lo menos dos autos afectados, choque lateral, vehículo no respeta la preferencia "
+,,,,,dash_cam_part25_31,no_crash,"00:08:34,04","00:08:36,04",
+,,,,,dash_cam_part25_32,crash,"00:08:36,04","00:08:45,05","Por lo menos un auto afectado, choque frontal, auto rojo pierde el control haciendolo chocar contra el muro de contención"
+,,,,,dash_cam_part25_33,no_crash,"00:08:56,06","00:08:59,25",
+,,,,,dash_cam_part25_34,crash,"00:08:59,25","00:09:05,10","Por lo menos 3 vehículos afetados, choque lateral, auto blanco pierde el control y choqua tres autos"
+,,,,,dash_cam_part25_35,no_crash,"00:09:56,17","00:10:01,18",
+,,,,,dash_cam_part25_36,crash,"00:10:01,18","00:10:07,06","Por lo menos dos vehículos afectados, auto negro sobrepasa luz roja, choque lateral, choque en cruce de avenidas"
+,,,,,dash_cam_part25_37,no_crash,"00:10:14,02","00:10:18,13",
+,,,,,dash_cam_part25_38,crash,"00:10:18,13","00:10:22,09","Por lo menos dos autos afectados, choque lateral, camioneta negra invade carril auto afectado tenía preferencia"
+,,,,,dash_cam_part25_39,no_crash,"00:11:24,10","00:11:29,28",
+,,,,,dash_cam_part25_40,crash,"00:11:29,28","00:11:35,24","Por lo menos dos autos afectados, choque lateral, camioneta negra iba a alta velocidad y tenía preferencia"
+,,,,,dash_cam_part25_41,no_crash,"00:11:56,21","00:12:00,17",
+,,,,,dash_cam_part25_42,crash,"00:12:00,17","00:12:08,01","Por lo menos 3 autos afectados, choque frontal, choque a autos estacionados"
+,,,,,dash_cam_part25_43,no_crash,"00:12:13,15","00:12:19,08",
+,,,,,dash_cam_part25_44,crash,"00:12:19,08","00:12:27,07","Por lo menos dos autos afectados, choque frontal, auto afectante no respeta la preferencia de avenida al querer entrar"
+,,,,,dash_cam_part25_45,no_crash,"00:13:00,05","00:13:03,20",
+,,,,,dash_cam_part25_46,crash,"00:13:03,20","00:13:09,18","Por lo menos dos autos afectados, choque lateral, auto que graba tiene preferencia y le intentan ganar tiempo en esquina"
+,,,,,dash_cam_part25_47,no_crash,"00:13:20,11","00:13:25,16",
+,,,,,dash_cam_part25_48,crash,"00:13:25,16","00:13:31,29","Por lo menos dos autos afectados, choque frontal, auto negro pierde el control en pista mojada "
+,,,,,dash_cam_part25_49,no_crash,"00:13:38,06","00:13:42,03",
+,,,,,dash_cam_part25_49,crash,"00:13:42,03","00:13:46,21","Por lo menos dos autos afectados, choque frontal, auto negro no respeta luz roja, "
+,,,,,dash_cam_part25_51,no_crash,"00:14:24,19","00:14:27,28",
+,,,,,dash_cam_part25_52,crash,"00:14:27,28","00:14:35,13","Por lo menos dos autos afectados, choque frontal, camion de carga se sobrepone al auto afectado en esquina"
+,,,,,dash_cam_part25_53,no_crash,"00:15:51,08","00:15:55,24",
+,,,,,dash_cam_part25_54,crash,"00:15:55,24","00:16:01,21","Por lo menos dos autos afectados, choque lateral, auto que graba tiene preferencia y le invaden carril al auto que graba"
+,,,,,dash_cam_part25_55,no_crash,"00:16:11,02","00:16:15,17",
+,,,,,dash_cam_part25_56,crash,"00:16:15,17","00:16:21,19","Por lo menos 3 autos afectados, choque trasero, auto negro pierde el control y choqua tres autos antes de detenerse"
+,,,,,dash_cam_part25_57,no_crash,"00:17:12,17","00:17:17,23",
+,,,,,dash_cam_part25_58,crash,"00:17:17,23","00:17:24,11","Por lo menos dos vehículos afectados, choque frontal, auto blanco venía a gran velocidad y no dio espacio a auto verde que ingresaba a avenida lentamente."
+,,,,,dash_cam_part25_59,no_crash,"00:17:35,25","00:17:39,18",
+,,,,,dash_cam_part25_60,crash,"00:17:39,18","00:17:44,13","Por lo menos dos autos afectados, choque frontal, camioneta negra retrocede sin sentido y choca a auto que graba"
+,,,,,dash_cam_part25_61,no_crash,"00:17:52,04","00:17:55,25",
+,,,,,dash_cam_part25_62,crash,"00:17:55,25","00:18:02,03","Por lo menos dos autos afectados, choque frontal, camioneta ploma intenta ganar a auto que graba en esquina"
+,,,,,dash_cam_part25_63,no_crash,"00:18:33,27","00:18:39,11",
+,,,,,dash_cam_part25_64,crash,"00:18:39,11","00:18:41,12","Por lo menos dos afectados, choque frontal, el auto que graba se adelanta en cruce y no respeta el semáforo "
+,,,,,dash_cam_part25_65,no_crash,"00:18:53,25","00:18:59,10",
+,,,,,dash_cam_part25_66,crash,"00:18:59,10","00:19:04,06","Por lo menos dos autos afectados, choque lateral, el auto blanco avanza muy inmediatamente después de la luz roja "
+,,"INSANE CAR CRASHES COMPILATION || USA & Canada - part 24",insane_crashes_24,https://www.youtube.com/watch?v=03IZDJajxPk&t=215s&ab_channel=DashcamLessons,dash_cam_part25_67,no_crash,"00:00:00,00","00:00:05,20",
+,,,,,dash_cam_part25_68,crash,"00:00:05,20","00:00:09,11","Por lo menos dos autos afectados, choque lateral, auto azul tenía preferencia y camioneta ploma se sobrepone en medio de la pista "
 ,,,,,dash_cam_part25_69,no_crash,"00:00:40,02","00:00:44,18",
-,,,,,dash_cam_part25_70,crash,"00:00:44,18","00:00:52,28","Por lo menos dos autos afectados, camioneta negra pierde el control en curva y choca un auto, choque frontal para ambos."
+,,,,,dash_cam_part25_70,crash,"00:00:44,18","00:00:52,28","Por lo menos dos autos afectados, choque frontal, camioneta negra pierde el control en curva y choca un auto"
 ,,,,,dash_cam_part25_71,no_crash,"00:01:34,25","00:01:40,10",
-,,,,,dash_cam_part25_72,crash,"00:01:40,10","00:01:45,18","Por lo menos dos autos afectados, auto que graba tiene preferencia, camioneta negra sale del estacionamiento negligentemente."
+,,,,,dash_cam_part25_72,crash,"00:01:40,10","00:01:45,18","Por lo menos dos autos afectados, choque frontal, camioneta negra sale del estacionamiento negligentemente"
 ,,,,,dash_cam_part25_73,no_crash,"00:01:53,05","00:01:57,06",
-,,,,,dash_cam_part25_74,crash,"00:01:57,06","00:02:09,04","Por lo menos 3 afectados, auto chocante no respeta luz roja, choque perpendicular con primer auto, choque en cadena finalizando con el auto que graba, triple choque."
+,,,,,dash_cam_part25_74,crash,"00:01:57,06","00:02:09,04","Por lo menos tres autos afectados, choque perpendicular, auto chocante no respeta luz roja triple choque"
+,,,,,dash_cam_part25_75,no_crash,"00:02:25,20","00:02:31,00",
+,,,,,dash_cam_part25_76,crash,"00:02:31,00","00:02:37,07","Por lo menos dos autos fueron afectados, choque frontal, auto chocante invade carril en curva de manera frontal."
+,,,,,dash_cam_part25_77,no_crash,"00:03:12,06","00:03:16,28",
+,,,,,dash_cam_part25_78,crash,"00:03:16,28","00:03:21,17","Por lo menos dos autos afectados, choque frontal, vehículo plomo intenta adelantarse al auto rojo en intercambio viál"
+,,,,,dash_cam_part25_79,no_crash,"00:03:37,23","00:03:43,22",
+,,,,,dash_cam_part25_80,crash,"00:03:43,22","00:03:47,19","Por lo menos dos autos afectados, choque lateral, minivan negra invade carril"
+,,,,,dash_cam_part25_81,no_crash,"00:03:49,08","00:03:53,28",
+,,,,,dash_cam_part25_82,crash,"00:03:53,28","00:03:59,02","Por lo menos dos autos afectados, choque lateral, camioneta ploma invade avenida"
+,,,,,dash_cam_part25_83,no_crash,"00:09:46,06","00:09:49,15",
+,,,,,dash_cam_part25_84,crash,"00:09:49,15","00:09:53,27","Por lo menos dos autos afectados, choque  trasero, auto frontal frena de pronto y ocasione choque"
+,,,,,dash_cam_part25_85,no_crash,"00:12:06,09","00:12:09,19",
+,,,,,dash_cam_part25_86,crash,"00:12:09,19","00:12:17,01","Por lo menos tres autos afectados, choque lateral, camioneta negra intenta cambiar de carril y choque a camión"
+,,,,,dash_cam_part25_87,no_crash,"00:13:54,14","00:13:57,24",
+,,,,,dash_cam_part25_88,crash,"00:13:57,24","00:14:02,08","Por lo menos dos autos afectados, choque lateral, camioneta blanca intenta cambiar de carril y choca"
+,,,,,dash_cam_part25_89,no_crash,"00:14:25,16","00:14:28,23",
+,,,,,dash_cam_part25_90,crash,"00:14:28,23","00:14:33,16","Por lo menos dos autos afectados, choque frontal, auto rojo no respeta preferencia de avenida"
+,,,,,dash_cam_part25_91,no_crash,"00:14:43,22","00:14:46,08", 
+,,,,,dash_cam_part25_92,crash,"00:14:46,08","00:14:51,08","Por lo menos dos autos afectados, choque lateral, auto blanco avanza negligentemente"
+,,,,,dash_cam_part25_93,no_crash,"00:17:52,08","00:17:54,23",
+,,,,,dash_cam_part25_94,crash,"00:17:54,23","00:17:57,20","Por lo menos dos autos afectados, choque frontal, auto sale de estacionamiento negligentemente"
+,,,,,dash_cam_part25_95,no_crash,"00:18:08,03","00:18:11,27",
+,,,,,dash_cam_part25_96,crash,"00:18:11,27","00:18:16,25","Por lo menos dos autos afectados, choque lateral, auto blanco intenta cambiar de carril sin tener preferencia"
+,,,,,dash_cam_part25_97,no_crash,"00:18:42,08","00:18:45,02",
+,,,,,dash_cam_part25_98,crash,"00:18:45,02","00:18:48,29","Por lo menos dos autos afcetados, choque lateral, auto negro choque intencionalmente y se da a la fuga"
+,,"INSANE CAR CRASHES COMPILATION || USA & Canada - part 23
+",insane_crashes_23,https://www.youtube.com/watch?v=KBB_jarwCU8&t=40s&ab_channel=DashcamLessons,dash_cam_part25_99,no_crash,"00:00:50,12","00:00:53,05",
+,,,,,dash_cam_part25_100,crash,"00:00:53,05","00:00:57,22","Por lo menos dos autos afectados, choque frontal, auto venia en sentido contrario"
+,,,,,dash_cam_part25_101,no_crash,"00:01:11,13","00:01:14,13",
+,,,,,dash_cam_part25_102,crash,"00:01:14,13","00:01:21,01","Por lo menos dos autos afectados, choque lateral, auto chocante no respeta preferencia y cruza negligentemente"
+,,,,,dash_cam_part25_103,no_crash,"00:01:45,02","00:01:49,10",
+,,,,,dash_cam_part25_104,crash,"00:01:49,10","00:01:52,23","Por lo menos dos autos afectados, choque frontal, auto chocante no respeta preferencia y cruza negligentemente"
+,,,,,dash_cam_part25_105,no_crash,"00:02:15,22","00:02:20,08",
+,,,,,dash_cam_part25_106,crash,"00:02:20,08","00:02:27,05","Por lo menos dos autos afectados, choque lateral, camioneta blanca cambia de carril negligentemente"
+,,,,,dash_cam_part25_107,no_crash,"00:04:09,25","00:04:12,27",
+,,,,,dash_cam_part25_108,crash,"00:04:12,27","00:04:17,28","Por lo menos tres autos afectados, choque frontal, auto negro resbala en curva y pierde el control"
+,,,,,dash_cam_part25_109,no_crash,"00:05:11,02","00:05:13,13",
+,,,,,dash_cam_part25_110,crash,"00:05:13,13","00:05:18,11","Por lo menos dos autos afectados, choque trasero, camioneta negra se desvía y choca contra auto blanco"
